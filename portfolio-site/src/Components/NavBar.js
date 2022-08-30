@@ -8,10 +8,10 @@ const NavBar = () => {
                     Logo Will Be Here...
                 </div>
                 <div className='Links'>
-                    <a href='#About'>About</a>
-                    <a href='#Projects'>Projects</a>
-                    <a href='#Skills'>Skills</a>
-                    <a href='#Achievements'>Achievements</a>
+                    <a className='NavBarLink' href='#About'>About</a>
+                    <a className='NavBarLink' href='#Projects'>Projects</a>
+                    <a className='NavBarLink' href='#Skills'>Skills</a>
+                    <a className='NavBarLink' href='#Achievements'>Achievements</a>
                 </div>
             </div>
         

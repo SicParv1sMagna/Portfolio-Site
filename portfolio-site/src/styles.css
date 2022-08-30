@@ -57,10 +57,14 @@ html, body {
     margin-right: 50px;
 }
 
-a {
+.NavBarLink {
     text-decoration: none;
     color: #000;
     margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .Content {
@@ -71,7 +75,7 @@ a {
     padding-top: 50px;
     position: absolute;
     width: 90%;
-    height: 100%;
+    /* height: 100%; */
     border-radius: 75px;
     margin: 0 auto;
     z-index: 1;
@@ -90,6 +94,8 @@ a {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .about-container {
@@ -130,10 +136,12 @@ a {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .projects-container {
-    width: 120%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -143,3 +151,89 @@ a {
     background: rgba( 164, 227, 255, 0.25 );
     border-radius: 50px;
 }
+
+.projects-text {
+    width: 92%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.ProjectsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    background: rgba( 164, 227, 255, 0.25 );
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.Project {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.ProjectText {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.ButtonContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.LinkButton {
+    width: 85px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(255, 205, 53);
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GitHubButton {
+    width: 85px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(255, 205, 53);
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+

@@ -20,7 +20,6 @@ const App = () => {
           <Skills />
           <Achievements />
         </div>
-        asd
       </div>
     </div>
   );
