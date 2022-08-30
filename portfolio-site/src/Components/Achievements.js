@@ -5,13 +5,10 @@ const Achievements = () => {
         <div className="achievements"><a name='Achievements'></a>
             <div className="achievements-container">
                 <div className="achievements-text">
-                    <h1>Achievements</h1>
-                    <p>
-                        Here are some of the achievements I have achieved.
-                    </p>
-                </div>
-                <div className="achievements-image">
-                    <img src="https://i.imgur.com/QQO0tQJ.png" alt="logo" />
+                    <h1 style={{color:'rgb(255, 205, 53)'}}>Achievements</h1>
+                    <h3>
+                        2022 - Hackathon "Besthack 2022" - 3rd place.
+                    </h3>
                 </div>
             </div>
         </div>

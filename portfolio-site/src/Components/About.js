@@ -6,8 +6,8 @@ const About = () => {
             <div className="about-container">
                 <div className="about-text">
                     <h1>Hello There!</h1>
-                    <h1>I'am <span className='name'>Timur Ayushiev!</span></h1>
-                    <p>A computer science student from Moscow. I'am intrested in Front-end development, Game development, Data Science.</p>
+                    <h1>I'am <span className='name'>Timur Ayushiev</span>!</h1>
+                    <p>A second year computer science student from Moscow. I'am intrested in Front-end development, Game development, Data Science.</p>
                 </div>
             </div>
             <div className='Logo2'>

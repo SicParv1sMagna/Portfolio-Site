@@ -59,7 +59,8 @@ html, body {
 
 .NavBarLink {
     text-decoration: none;
-    color: #000;
+    color: aliceblue;
+    font-size: 20px;
     margin-left: 50px;
 }
 
@@ -120,6 +121,7 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
     color: aliceblue;
+    font-size: 20px;
 }
 
 .name {
@@ -191,6 +193,7 @@ a {
 .ProjectText {
     width: 90%;
     height: 100%;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -211,8 +214,8 @@ a {
 }
 
 .LinkButton {
-    width: 85px;
-    height: 35px;
+    width: 110px;
+    height: 45px;
     border: none;
     border-radius: 50px;
     background-color: rgb(255, 205, 53);
@@ -221,11 +224,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .GitHubButton {
-    width: 85px;
-    height: 35px;
+    width: 110px;
+    height: 45px;
     border: none;
     border-radius: 50px;
     background-color: rgb(255, 205, 53);
@@ -234,17 +240,19 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .skills {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 50%;
+    /* height: 100%; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
     margin-bottom: 30px;
+    padding-right: 30px;
 }
 
 .skills-container {
@@ -259,13 +267,24 @@ a {
     border-radius: 50px;
 }
 
+.skills-text {
+    width: 87%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
 .achievements {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -279,4 +298,24 @@ a {
     -webkit-backdrop-filter: blur( 4px );
     background: rgba( 164, 227, 255, 0.25 );
     border-radius: 50px;
+}
+
+.achievements-text {
+    width: 87%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.SkillsAchievements {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
 }

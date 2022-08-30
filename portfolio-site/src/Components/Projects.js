@@ -5,7 +5,7 @@ const Projects = () => {
         <div className="projects">
             <div className="projects-container">
                 <div className="projects-text">
-                    <h1>Projects</h1>
+                    <h1 style={{color:'rgb(255, 205, 53)'}}>Projects</h1>
                 </div>
                 <div className='ProjectsContainer'>
                     <div className='Project'>
@@ -28,7 +28,7 @@ const Projects = () => {
                             <h2>Web Messenger</h2>
                             <p>A messenger application built with Socket.io, React.js, node.js. I was practicing Back-end.</p>
                             <div className='ButtonContainer'>
-                                {/* <a href=''><button className='LinkButton'>Live Preview</button></a> */}
+                                <a href=''><button className='LinkButton'>Live Preview</button></a>
                                 <a href='https://github.com/SicParv1sMagna/React-Web-Messenger'><button className='GitHubButton'>GitHub</button></a>
                             </div>
                         </div>
