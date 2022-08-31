@@ -9,23 +9,14 @@ html, body {
     padding: 0px;
     display: flex;
     flex-direction: column;
-    /* background-color: rgb(10, 73, 128); */
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) , rgba(10, 73, 128, 1) , rgba(0, 0, 0, 1) );
-	animation: fadein 10s ease infinite;
+    background: radial-gradient(circle at 0% 0%, rgba(10, 73, 128, 1), rgba(0, 0, 0, 1));
+	animation-name: fade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease;
     z-index: 1;
     scroll-behavior: smooth;
-}
-
-@keyframes fadein {
-    0% {
-        background: linear-gradient(90deg, rgba(0, 0, 0, 1) , rgba(10, 73, 128, 1) , rgba(0, 0, 0, 1) );
-    }
-    /* % {
-        background: linear-gradient(90deg, rgba(0, 0, 0, 1) , rgb(18, 113, 195) , rgba(0, 0, 0, 1) );
-    } */
-	100% {
-        background: linear-gradient(90deg, rgba(0, 0, 0, 1) , rgb(18, 113, 195) , rgba(0, 0, 0, 1) );
-    }
 }
 
 .App {
