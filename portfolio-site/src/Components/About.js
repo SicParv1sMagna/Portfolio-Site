@@ -8,6 +8,7 @@ const About = () => {
                     <h1>Hello There!</h1>
                     <h1>I'am <span className='name'>Timur Ayushiev</span>!</h1>
                     <p>A second year computer science student from Moscow. I'am intrested in Front-end development, Game development, Data Science.</p>
+                    <p>You can contact me by mail: <span style={{color:'rgb(255, 205, 53)'}}>tayushiev@gmail.com</span></p>
                 </div>
             </div>
             <div className='Logo2'>
