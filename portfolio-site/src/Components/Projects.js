@@ -19,7 +19,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='ProjectPhoto'>
-                        asd
+                        <img src='../ChillRadioBeatsPhoto.png'></img>
                     </div>
                 </div>
                 <div className='ProjectsContainer'>
@@ -34,7 +34,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='ProjectPhoto'>
-                        asd
+                        <img src='../ChatWindow.png'></img>
                     </div>
                 </div>
                 <div className='ProjectsContainer'>
@@ -49,7 +49,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='ProjectPhoto'>
-                        asd
+                        <img src='../WeatherAppPhoto.png'></img>
                     </div>
                 </div>
             </div>
