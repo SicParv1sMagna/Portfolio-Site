@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div className="projects">
+        <div className="projects"><a name='Projects'></a>
             <div className="projects-container">
                 <div className="projects-text">
                     <h1 style={{color:'rgb(255, 205, 53)'}}>Projects</h1>
@@ -19,7 +19,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='ProjectPhoto'>
-                        <img src='../ChillRadioBeatsPhoto.png'></img>
+                        <img className='photoContainer' src='../ChillRadioBeatsPhoto.png'></img>
                     </div>
                 </div>
                 <div className='ProjectsContainer'>
@@ -34,7 +34,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='ProjectPhoto'>
-                        <img src='../ChatWindow.png'></img>
+                        <img className='photoContainer' src='../ChatWindow.png'></img>
                     </div>
                 </div>
                 <div className='ProjectsContainer'>
@@ -49,7 +49,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='ProjectPhoto'>
-                        <img src='../WeatherAppPhoto.png'></img>
+                        <img className='photoContainer' src='../WeatherAppPhoto.png'></img>
                     </div>
                 </div>
             </div>
