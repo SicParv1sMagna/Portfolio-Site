@@ -28,7 +28,6 @@ const Projects = () => {
                             <h2>Web Messenger</h2>
                             <p>A messenger application built with Socket.io, React.js, node.js. I was practicing Back-end.</p>
                             <div className='ButtonContainer'>
-                                <a href=''><button className='LinkButton'>Live Preview</button></a>
                                 <a href='https://github.com/SicParv1sMagna/React-Web-Messenger'><button className='GitHubButton'>GitHub</button></a>
                             </div>
                         </div>
