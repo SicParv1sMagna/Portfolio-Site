@@ -13,7 +13,7 @@ const NavBar = () => {
                         <a className='NavBarLink' href='#Skills'>Skills</a>
                     </span>
                     <span className='spanBtn'>
-                        <a className='NavBarLink' href='#Achievements'>Achievements</a>
+                        <a className='NavBarLink' href='#Awards'>Awards</a>
                     </span>
             </div>
     );

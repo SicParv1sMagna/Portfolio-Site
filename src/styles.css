@@ -1,5 +1,5 @@
 html, body {
-    width: 100%; 
+    width: 100%;
     height: 2250px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -129,6 +129,7 @@ a {
     background: rgba( 164, 227, 255, 0.15 );
     border-radius: 50px;
     z-index: 4;
+    padding: 15px;
 }
 
 .about-text {
@@ -137,7 +138,6 @@ a {
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    /* margin-right: auto; */
     margin-top: auto;
     margin-bottom: auto;
     color: aliceblue;
@@ -146,10 +146,6 @@ a {
 
 .name {
     color:rgb(255, 205, 53)
-}
-
-.Logo2 {
-
 }
 
 .projects {
@@ -385,4 +381,58 @@ a {
     z-index: 5;
     height: 500px;
     border-radius: 40px;
+}
+
+@media (max-width: 768px) {
+    .photo {
+        display: none;
+    }
+    .about-text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: aliceblue;
+    }
+    .photoContainer{
+        display: none;
+    }
+    .ProjectPhoto {
+        display: none;
+    }
+    .Project {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: aliceblue;
+    }
+    .ProjectText {
+        width: 90%;
+        height: 100%;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: aliceblue;
+    }
+    .programmingLanguages {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+    .spanBtn {
+        width: 110px;
+    }
 }
